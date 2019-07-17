@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Black Aqua</title>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="main">
+    <div class="left-menu-box">
+        <div id="left-menu" class="left-menu">
+            <ul class="left-menu__links">
+                <li><a href="#">Производство</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Где купить</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <header id="header" class="header">
+        <div class="container-max header__container">
+            <div class="header__brand-box d-flex">
+                <button class="header__burger-menu mr-20" id="left-menu-open">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="header__brand">
+                    <h1 class="sr-only">Black Aqua</h1>
+                    <a href="#"><span class="brand"></span></a>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list align-content-end">
+                    <li><a href="#">Производство</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Где купить</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__call">
+                <div class="header__call-body">
+                    <h6 class="f12 text-gray font-weight-regular">
+                        Бесплатный звонок по России:
+                    </h6>
+                    <h3>8-800-777-3456</h3>
+                </div>
+                <a href="#" class="btn header__btn-call">
+                    Заказать звонок
+                </a>
+                <a href="tel: 88007773456" class="btn header__btn-call header__btn-call_mobile"></a>
+            </div>
+            <div class="d-flex">
+                <a href="#" class="btn btn-black header__search"></a>
+            </div>
+        </div>
+    </header>
+    <section class="container-content pt-55 pb-75">
+        <div class="panel flex-column-reverse flex-md-row">
+            <div class="panel__side panel__side_left">
+                <div class="catalog-box">
+                    <div class="light-card pt-30 catalog" id="catalog">
+                        <h2>Категория</h2>
+                        <ul class="category-list mt-15">
+                            <li class="category-list__active">
+                                <a href="#">Горные велосипеды</a>
+                            </li>
+                            <li><a href="#">BMX</a></li>
+                            <li><a href="#">Детские</a></li>
+                            <li><a href="#">Трехколесные</a></li>
+                            <li><a href="#">Городские</a></li>
+                            <li><a href="#">Складные</a></li>
+                            <li><a href="#">Беговелы</a></li>
+                            <li><a href="#">Самокаты</a></li>
+                            <li><a href="#">Роликовые коньки</a></li>
+                            <li><a href="#">Скейт и пейнтборды</a></li>
+                            <li><a href="#">Аксессуары</a></li>
+                            <li><a href="#">Запчасти</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter-box">
+                    <div id="filter" class="filter">
+                        <h2 class="d-lg-none mt-30 ml-30">Фильтр</h2>
+                        <div class="collapse-card mt-20">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#cycle-type" aria-expanded="true" aria-controls="cycle-type">
+                                <h5 class="collapse-card__title">Тип велосипеда</h5>
+                                <div id="arrow-cycle-type" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="cycle-type" data-arrow="arrow-cycle-type">
+                                <div class="collapse-card__body f14">
+                                    <input id="hardteil" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="hardteil" class="font-weight-light">Хардтейл</label>
+                                    <br>
+                                    <input id="dvuhpodves" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="dvuhpodves" class="font-weight-light">Двухподвес</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#material-type" aria-expanded="true" aria-controls="material-type">
+                                <h5 class="collapse-card__title">Материал рамы</h5>
+                                <div id="arrow-material-type" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="material-type" data-arrow="arrow-material-type">
+                                <div class="collapse-card__body f14">
+                                    <input id="aluminiy" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="aluminiy" class="font-weight-light">Алюминий</label>
+                                    <br>
+                                    <input id="stal" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="stal" class="font-weight-light">Сталь</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#years-old" aria-expanded="true" aria-controls="years-old">
+                                <h5 class="collapse-card__title">Возраст</h5>
+                                <div id="arrow-years-old" class="icon icon-arrow-down"></div>
+                            </div>
+                            <div class="collapse" id="years-old" data-arrow="arrow-years-old">
+                                <div class="collapse-card__body f14">
+                                    <input id="s18" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="s18" class="font-weight-light">менее 18</label>
+                                    <br>
+                                    <input id="b18" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="b18" class="font-weight-light">18 и старше</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#sex" aria-expanded="true" aria-controls="sex">
+                                <h5 class="collapse-card__title">Пол</h5>
+                                <div id="arrow-sex" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="sex" data-arrow="arrow-sex">
+                                <div class="collapse-card__body f14">
+                                    <input id="male" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="male" class="font-weight-light">Мужской</label>
+                                    <br>
+                                    <input id="female" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="female" class="font-weight-light">Женский</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#speed-changer" aria-expanded="true" aria-controls="speed-changer">
+                                <h5 class="collapse-card__title">Переключатель<br>скоростей</h5>
+                                <div id="arrow-speed-changer" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="speed-changer" data-arrow="arrow-speed-changer">
+                                <div class="collapse-card__body f14">
+                                    <input id="trigger" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="trigger" class="font-weight-light">Триггер</label>
+                                    <br>
+                                    <input id="grishift" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="grishift" class="font-weight-light">Гришифт</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#wheel-d" aria-expanded="true" aria-controls="wheel-d">
+                                <h5 class="collapse-card__title">Диаметр колеса</h5>
+                                <div id="arrow-wheel-d" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="wheel-d" data-arrow="arrow-wheel-d">
+                                <div class="collapse-card__body f14">
+                                    <input id="d20" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d20" class="font-weight-light">20”</label>
+                                    <br>
+                                    <input id="d24" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d24" class="font-weight-light">24”</label>
+                                    <br>
+                                    <input id="d26" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d26" class="font-weight-light">26”</label>
+                                    <br>
+                                    <input id="d27-5" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d27-5" class="font-weight-light">27.5”</label>
+                                    <br>
+                                    <input id="d29" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d29" class="font-weight-light">29”</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-card">
+                            <div class="collapse-card__head" data-toggle="collapse" data-target="#stop-type" aria-expanded="true" aria-controls="stop-type">
+                                <h5 class="collapse-card__title">Тип тормозов</h5>
+                                <div id="arrow-stop-type" class="icon icon-arrow-up"></div>
+                            </div>
+                            <div class="collapse show" id="stop-type" data-arrow="arrow-stop-type">
+                                <div class="collapse-card__body f14">
+                                    <input id="v-brake" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="v-brake" class="font-weight-light">V-brake (обводной)</label>
+                                    <br>
+                                    <input id="d-drake" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="d-drake" class="font-weight-light">D-brake (дисковой)</label>
+                                    <br>
+                                    <input id="gidravlik" type="checkbox" class="custom-checkbox custom-checkbox_light">
+                                    <label for="gidravlik" class="font-weight-light">Гидравлический</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="light-card">
+                            <span class="f12 font-weight-light">Подобрано 445 товаров</span>
+                            <button class="mt-8 d-block w-100 btn">Показать</button>
+                            <button class="mt-10 mb-10 d-block w-100 btn btn-light">Сбросить</button>
+                        </div>
+                        <a class="d-block mt-25" href="#">
+                            <img class="d-block mx-auto img-fluid" src="img/banner-1.jpg" alt="Баннер в каталоге">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel__main">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                        <li class="breadcrumb-item"><a href="#">Каталог</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Горные велосипеды</li>
+                    </ol>
+                </nav>
+                <h2 class="h2-xl">Горные велосипеды</h2>
+
+                <div class="d-md-none d-flex flex-wrap my-30">
+                    <a href="#" class="btn btn-light mr-10" id="catalog-open">Категория</a>
+                    <a href="#" class="btn btn-light" id="filter-open">Фильтр</a>
+                </div>
+
+                <div class="products products-3">
+                    <div class="product">
+                        <a href="#" class="d-block">
+                            <img src="img/product/2.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__stick bg-red"><b>Хит продаж</b></div>
+                        <a href="#" class="d-block">
+                            <img src="img/product/3.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="d-block">
+                            <img src="img/product/2.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__stick bg-blue"><b>Новинка</b></div>
+                        <a href="#" class="d-block">
+                            <img src="img/product/2.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="d-block">
+                            <img src="img/product/3.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="d-block">
+                            <img src="img/product/1.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="d-block">
+                            <img src="img/product/2.png" alt="" class="product__view">
+                        </a>
+                        <h5 class="product__title">
+                            <a href="#">BA mount 1451-v 24" matt</a>
+                        </h5>
+                        <ul class="product__color-list">
+                            <li class="bg-blue"></li>
+                            <li class="bg-red"></li>
+                            <li class="bg-black"></li>
+                        </ul>
+                        <div class="product__description">
+                            <p>
+                                Количество скоростей: <b>6</b><br>
+                                Рама: <b>алюминий</b><br>
+                                Вилка: <b>амортизирующая</b><br>
+                                Тормоза: <b>V-brake</b>
+                            </p>
+                            <a href="#" class="product__btn">Купить оптом</a>
+                        </div>
+                    </div>
+                    <div class="product invisible"></div>
+                    <div class="product invisible"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container-content">
+            <h2 class="sr-only">Black Aqua</h2>
+            <div class="brand brand_xl brand_light"></div>
+            <div class="row">
+                <div class="col-lg-4 mt-35 mt-lg-20">
+                    <h4 class="footer__list-title font-weight-normal">Каталог</h4>
+                    <div class="row">
+                        <ul class="col-6 footer__list pr-0">
+                            <li><a href="#">Горные велосипеды</a></li>
+                            <li><a href="#">BMX</a></li>
+                            <li><a href="#">Детские</a></li>
+                            <li><a href="#">Трехколесные</a></li>
+                            <li><a href="#">Городские</a></li>
+                            <li><a href="#">Складные</a></li>
+                        </ul>
+                        <ul class="col-6 footer__list pr-0">
+                            <li><a href="#">Беговелы</a></li>
+                            <li><a href="#">Самокаты</a></li>
+                            <li><a href="#">Роликовые коньки</a></li>
+                            <li><a href="#">Скейт и пейнтборды</a></li>
+                            <li><a href="#">Аксессуары</a></li>
+                            <li><a href="#">Запчасти</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-35 mt-lg-20">
+                    <h4 class="footer__list-title font-weight-normal">Где купить?</h4>
+                    <ul class="footer__list">
+                        <li><a href="#">Купить black aqua в Москве</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mt-35 mt-lg-20">
+                    <h4 class="font-weight-normal"><a href="#">Производство</a></h4>
+                    <h4 class="font-weight-normal mt-40"><a href="#">О компании</a></h4>
+                    <a class="font-weight-normal line-height-1 f18 mt-40 d-block" href="#">Получить каталог (pdf)</a>
+                </div>
+                <div class="col-lg-3 mt-35 mt-lg-20">
+                    <h4 class="footer__list-title font-weight-normal">Контакты</h4>
+                    <p class="line-height-2 f14">
+                        Оптовый отдел<br>
+                        Многоканальный телефон: (342) 214-88-88<br>
+                        Факс: (342) 214-88-88, добавочный 0<br>
+                        E-mail: <span class="text-yellow">info@avtsport.ru</span><br>
+                        ПН - ПТ: с 8.00 до 18.00 (+2 МСК)<br>
+                    </p>
+                    <div class="footer__social mt-60">
+                        <a href="#"><img class="svg" src="img/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img class="svg" src="img/vk.svg" alt="VK"></a>
+                        <a href="#"><img class="svg" src="img/instagram.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between text-gray f14">
+                <div class="mt-30">&copy;2018 Производственно-торговая компания А.В.Т.-Спорт</div>
+                <div class="mt-30">Разработка интернет-магазинов - StartMedia</div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
